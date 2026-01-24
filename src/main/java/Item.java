@@ -1,7 +1,11 @@
+import com.google.gson.annotations.SerializedName;
+
 public abstract class Item {
-    protected String nome, raridade, descb, descex;
+    protected String nome, raridade, descb;
+    @SerializedName("propriedade") protected String descex;
     protected int qntLoja;
-    protected double precoBase, peso;
+    @SerializedName("preco") protected double precoBase;
+    protected double peso;
     protected boolean sintonizacao;
 
     public Item(String nome, String raridade, int qntLoja, String descb, String descex, double precoBase, double peso, boolean sintonizacao) {

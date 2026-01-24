@@ -6,6 +6,7 @@ static estoqueLoja estoqueLoja = new estoqueLoja();
 void main() {
     exibirMenu();
 }
+
 static void exibirMenu() {
     int opcao;
     do
@@ -20,7 +21,10 @@ static void exibirMenu() {
 
         switch (opcao) {
             case 1 -> estoqueLoja.exibirEstoque();
-            case 2 -> IO.println("Em breve!");
+            case 2 -> {
+                CadastroItem cadastroItem = new CadastroItem();
+                cadastroItem.exibirMenu();
+            }
             case 0 -> IO.println("Saindo...");
             default -> IO.println("Opção Inválida.");
         }
