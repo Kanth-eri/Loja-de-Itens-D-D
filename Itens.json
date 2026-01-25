@@ -3,28 +3,88 @@
     {
       "categoria": "Leve",
       "itens": [
-        { "nome": "Acolchoada", "preco": 5.0, "ca": 11, "peso": 4.0 },
-        { "nome": "Couro", "preco": 10.0, "ca": 11, "peso": 5.0 },
-        { "nome": "Couro Batido", "preco": 45.0, "ca": 12, "peso": 6.5 }
+        {
+          "nome": "Acolchoada",
+          "preco": 5.0,
+          "ca": 11,
+          "peso": 4.0
+        },
+        {
+          "nome": "Couro",
+          "preco": 10.0,
+          "ca": 11,
+          "peso": 5.0
+        },
+        {
+          "nome": "Couro Batido",
+          "preco": 45.0,
+          "ca": 12,
+          "peso": 6.5
+        }
       ]
     },
     {
       "categoria": "Media",
       "itens": [
-        { "nome": "Gibão de Peles", "preco": 10.0, "ca": 12, "peso": 6.0 },
-        { "nome": "Camisão de Malha", "preco": 50.0, "ca": 13, "peso": 10.0 },
-        { "nome": "Brunea", "preco": 50.0, "ca": 14, "peso": 22.5 },
-        { "nome": "Peitoral", "preco": 400.0, "ca": 14, "peso": 10.0 },
-        { "nome": "Meia-Armadura", "preco": 750.0, "ca": 15, "peso": 20.0 }
+        {
+          "nome": "Gibão de Peles",
+          "preco": 10.0,
+          "ca": 12,
+          "peso": 6.0
+        },
+        {
+          "nome": "Camisão de Malha",
+          "preco": 50.0,
+          "ca": 13,
+          "peso": 10.0
+        },
+        {
+          "nome": "Brunea",
+          "preco": 50.0,
+          "ca": 14,
+          "peso": 22.5
+        },
+        {
+          "nome": "Peitoral",
+          "preco": 400.0,
+          "ca": 14,
+          "peso": 10.0
+        },
+        {
+          "nome": "Meia-Armadura",
+          "preco": 750.0,
+          "ca": 15,
+          "peso": 20.0
+        }
       ]
     },
     {
       "categoria": "Pesada",
       "itens": [
-        { "nome": "Cota de Anéis", "preco": 30.0, "ca": 14, "peso": 20.0 },
-        { "nome": "Cota de Malha", "preco": 75.0, "ca": 16, "peso": 27.5 },
-        { "nome": "Cota de Talas", "preco": 200.0, "ca": 17, "peso": 30.0 },
-        { "nome": "Placas", "preco": 1500.0, "ca": 18, "peso": 32.5 }
+        {
+          "nome": "Cota de Anéis",
+          "preco": 30.0,
+          "ca": 14,
+          "peso": 20.0
+        },
+        {
+          "nome": "Cota de Malha",
+          "preco": 75.0,
+          "ca": 16,
+          "peso": 27.5
+        },
+        {
+          "nome": "Cota de Talas",
+          "preco": 200.0,
+          "ca": 17,
+          "peso": 30.0
+        },
+        {
+          "nome": "Placas",
+          "preco": 1500.0,
+          "ca": 18,
+          "peso": 32.5
+        }
       ]
     }
   ],
@@ -32,267 +92,1054 @@
     {
       "categoria": "Simples",
       "itens": [
-        { "nome": "Adaga", "preco": 2.0, "dano": "1d4 perf", "peso": 0.5, "propriedades": "Acuidade, leve, arremesso" },
-        { "nome": "Azagaia", "preco": 0.5, "dano": "1d6 perf", "peso": 1.0, "propriedades": "Arremesso" },
-        { "nome": "Bordão", "preco": 0.2, "dano": "1d6 conc", "peso": 2.0, "propriedades": "Versátil (1d8)" },
-        { "nome": "Clava Grande", "preco": 0.2, "dano": "1d8 conc", "peso": 5.0, "propriedades": "Pesada, duas mãos" },
-        { "nome": "Foice Curta", "preco": 1.0, "dano": "1d4 cort", "peso": 1.0, "propriedades": "Leve" },
-        { "nome": "Lança", "preco": 1.0, "dano": "1d6 perf", "peso": 1.5, "propriedades": "Versátil (1d8)" },
-        { "nome": "Maça", "preco": 5.0, "dano": "1d6 conc", "peso": 2.0, "propriedades": "-" },
-        { "nome": "Machadinha", "preco": 5.0, "dano": "1d6 cort", "peso": 1.0, "propriedades": "Leve, arremesso" },
-        { "nome": "Martelo Leve", "preco": 2.0, "dano": "1d4 conc", "peso": 1.0, "propriedades": "Leve, arremesso" },
-        { "nome": "Porrete", "preco": 0.1, "dano": "1d4 conc", "peso": 1.0, "propriedades": "Leve" },
-        { "nome": "Arco Curto", "preco": 25.0, "dano": "1d6 perf", "peso": 1.0, "propriedades": "Munição, duas mãos" },
-        { "nome": "Besta Leve", "preco": 25.0, "dano": "1d8 perf", "peso": 2.5, "propriedades": "Recarga" },
-        { "nome": "Dardo", "preco": 0.05, "dano": "1d4 perf", "peso": 0.1, "propriedades": "Acuidade" },
-        { "nome": "Funda", "preco": 0.1, "dano": "1d4 conc", "peso": 0.0, "propriedades": "Munição" }
+        {
+          "nome": "Adaga",
+          "preco": 2.0,
+          "dano": "1d4 perf",
+          "peso": 0.5,
+          "propriedades": "Acuidade, leve, arremesso"
+        },
+        {
+          "nome": "Azagaia",
+          "preco": 0.5,
+          "dano": "1d6 perf",
+          "peso": 1.0,
+          "propriedades": "Arremesso"
+        },
+        {
+          "nome": "Bordão",
+          "preco": 0.2,
+          "dano": "1d6 conc",
+          "peso": 2.0,
+          "propriedades": "Versátil (1d8)"
+        },
+        {
+          "nome": "Clava Grande",
+          "preco": 0.2,
+          "dano": "1d8 conc",
+          "peso": 5.0,
+          "propriedades": "Pesada, duas mãos"
+        },
+        {
+          "nome": "Foice Curta",
+          "preco": 1.0,
+          "dano": "1d4 cort",
+          "peso": 1.0,
+          "propriedades": "Leve"
+        },
+        {
+          "nome": "Lança",
+          "preco": 1.0,
+          "dano": "1d6 perf",
+          "peso": 1.5,
+          "propriedades": "Versátil (1d8)"
+        },
+        {
+          "nome": "Maça",
+          "preco": 5.0,
+          "dano": "1d6 conc",
+          "peso": 2.0,
+          "propriedades": "-"
+        },
+        {
+          "nome": "Machadinha",
+          "preco": 5.0,
+          "dano": "1d6 cort",
+          "peso": 1.0,
+          "propriedades": "Leve, arremesso"
+        },
+        {
+          "nome": "Martelo Leve",
+          "preco": 2.0,
+          "dano": "1d4 conc",
+          "peso": 1.0,
+          "propriedades": "Leve, arremesso"
+        },
+        {
+          "nome": "Porrete",
+          "preco": 0.1,
+          "dano": "1d4 conc",
+          "peso": 1.0,
+          "propriedades": "Leve"
+        },
+        {
+          "nome": "Arco Curto",
+          "preco": 25.0,
+          "dano": "1d6 perf",
+          "peso": 1.0,
+          "propriedades": "Munição, duas mãos"
+        },
+        {
+          "nome": "Besta Leve",
+          "preco": 25.0,
+          "dano": "1d8 perf",
+          "peso": 2.5,
+          "propriedades": "Recarga"
+        },
+        {
+          "nome": "Dardo",
+          "preco": 0.05,
+          "dano": "1d4 perf",
+          "peso": 0.1,
+          "propriedades": "Acuidade"
+        },
+        {
+          "nome": "Funda",
+          "preco": 0.1,
+          "dano": "1d4 conc",
+          "peso": 0.0,
+          "propriedades": "Munição"
+        }
       ]
     },
     {
       "categoria": "Marciais",
       "itens": [
-        { "nome": "Alabarda", "preco": 20.0, "dano": "1d10 cort", "peso": 3.0, "propriedades": "Pesada, alcance" },
-        { "nome": "Espada Grande", "preco": 50.0, "dano": "2d6 cort", "peso": 3.0, "propriedades": "Pesada, duas mãos" },
-        { "nome": "Espada Longa", "preco": 15.0, "dano": "1d8 cort", "peso": 1.5, "propriedades": "Versátil (1d10)" },
-        { "nome": "Rapieira", "preco": 25.0, "dano": "1d8 perf", "peso": 1.0, "propriedades": "Acuidade" },
-        { "nome": "Machado Grande", "preco": 30.0, "dano": "1d12 cort", "peso": 3.5, "propriedades": "Pesada" }
+        {
+          "nome": "Alabarda",
+          "preco": 20.0,
+          "dano": "1d10 cort",
+          "peso": 3.0,
+          "propriedades": "Pesada, alcance"
+        },
+        {
+          "nome": "Espada Grande",
+          "preco": 50.0,
+          "dano": "2d6 cort",
+          "peso": 3.0,
+          "propriedades": "Pesada, duas mãos"
+        },
+        {
+          "nome": "Espada Longa",
+          "preco": 15.0,
+          "dano": "1d8 cort",
+          "peso": 1.5,
+          "propriedades": "Versátil (1d10)"
+        },
+        {
+          "nome": "Rapieira",
+          "preco": 25.0,
+          "dano": "1d8 perf",
+          "peso": 1.0,
+          "propriedades": "Acuidade"
+        },
+        {
+          "nome": "Machado Grande",
+          "preco": 30.0,
+          "dano": "1d12 cort",
+          "peso": 3.5,
+          "propriedades": "Pesada"
+        }
       ]
     }
-  ],
+      ],
   "equipamentos": [
     {
       "categoria": "Geral",
       "itens": [
-        { "nome": "Ábaco", "preco": 2.0, "peso": 1.0 },
-        { "nome": "Ácido (vidro)", "preco": 25.0, "peso": 0.5 },
-        { "nome": "Água benta", "preco": 25.0, "peso": 0.5 },
-        { "nome": "Algemas", "preco": 2.0, "peso": 2.0 },
-        { "nome": "Algibeira", "preco": 5.0, "peso": 0.5 },
-        { "nome": "Aljava", "preco": 1.0, "peso": 0.5 },
-        { "nome": "Ampulheta", "preco": 25.0, "peso": 0.5 },
-        { "nome": "Antídoto", "preco": 50.0, "peso": 0.0 },
-        { "nome": "Aríete portátil", "preco": 4.0, "peso": 17.5 },
-        { "nome": "Armadilha de caça", "preco": 5.0, "peso": 12.5 },
-        { "nome": "Arpéu", "preco": 2.0, "peso": 2.0 },
-        { "nome": "Balança de mercador", "preco": 5.0, "peso": 1.5 },
-        { "nome": "Balde", "preco": 0.05, "peso": 1.0 },
-        { "nome": "Barril", "preco": 35.0, "peso": 35.0 },
-        { "nome": "Baú", "preco": 5.0, "peso": 12.5 },
-        { "nome": "Bolsa de componentes", "preco": 25.0, "peso": 1.0 },
-        { "nome": "Caixa de Fogo", "preco": 0.5, "peso": 0.5 },
-        { "nome": "Caneca", "preco": 0.02, "peso": 0.5 },
-        { "nome": "Caneta tinteiro", "preco": 0.01, "peso": 0.0 },
-        { "nome": "Cantil", "preco": 0.2, "peso": 2.5 },
-        { "nome": "Cesto", "preco": 0.4, "peso": 1.0 },
-        { "nome": "Cobertor de inverno", "preco": 0.5, "peso": 1.5 },
-        { "nome": "Corda de cânhamo (15m)", "preco": 1.0, "peso": 5.0 },
-        { "nome": "Corda de seda (15m)", "preco": 10.0, "peso": 2.5 },
-        { "nome": "Corrente (3m)", "preco": 5.0, "peso": 5.0 },
-        { "nome": "Equipamento de pescaria", "preco": 1.0, "peso": 2.0 },
-        { "nome": "Escada (3m)", "preco": 0.1, "peso": 12.5 },
-        { "nome": "Esferas (sacola com 1.000)", "preco": 1.0, "peso": 1.0 },
-        { "nome": "Espelho de aço", "preco": 5.0, "peso": 0.25 },
-        { "nome": "Estrepes (bolsa com 20)", "preco": 1.0, "peso": 1.0 },
-        { "nome": "Fechadura", "preco": 10.0, "peso": 0.5 },
-        { "nome": "Fogo alquímico (frasco)", "preco": 50.0, "peso": 0.5 },
-        { "nome": "Frasco", "preco": 0.02, "peso": 1.0 },
-        { "nome": "Garrafa de Vidro", "preco": 1.0, "peso": 1.0 },
-        { "nome": "Grimório", "preco": 50.0, "peso": 1.5 },
-        { "nome": "Jarra", "preco": 0.04, "peso": 2.0 },
-        { "nome": "Kit escalada", "preco": 25.0, "peso": 6.0 },
-        { "nome": "Kit de primeiros-socorros", "preco": 5.0, "peso": 1.5 },
-        { "nome": "Lâmpada", "preco": 0.5, "peso": 0.5 },
-        { "nome": "Lanterna coberta", "preco": 5.0, "peso": 1.0 },
-        { "nome": "Lanterna furta-fogo", "preco": 10.0, "peso": 1.0 },
-        { "nome": "Lente de aumento", "preco": 100.0, "peso": 0.0 },
-        { "nome": "Livro", "preco": 25.0, "peso": 2.5 },
-        { "nome": "Luneta", "preco": 1000.0, "peso": 0.5 },
-        { "nome": "Manto", "preco": 1.0, "peso": 2.0 },
-        { "nome": "Marreta", "preco": 2.0, "peso": 5.0 },
-        { "nome": "Martelo", "preco": 1.0, "peso": 1.5 },
-        { "nome": "Mochila", "preco": 2.0, "peso": 2.5 },
-        { "nome": "Óléo (frasco)", "preco": 0.1, "peso": 0.5 },
-        { "nome": "Pá", "preco": 0.1, "peso": 0.5 },
-        { "nome": "Panela de ferro", "preco": 2.0, "peso": 5.0 },
-        { "nome": "Papel (uma folha)", "preco": 0.2, "peso": 0.0 },
-        { "nome": "Parafina", "preco": 0.5, "peso": 0.0 },
-        { "nome": "Pé de cabra", "preco": 2.0, "peso": 2.5 },
-        { "nome": "Pedra de amolar", "preco": 0.01, "peso": 0.0 },
-        { "nome": "Perfume (frasco)", "preco": 5.0, "peso": 0.0 },
-        { "nome": "Pergaminho (uma folha)", "preco": 1.0, "peso": 0.0 },
-        { "nome": "Picareta de minerador", "preco": 2.0, "peso": 5.0 },
-        { "nome": "Píton", "preco": 0.05, "peso": 0.0 },
-        { "nome": "Porta mapas ou pergamihos", "preco": 1.0, "peso": 0.5 },
-        { "nome": "Porta virotes", "preco": 1.0, "peso": 0.5 },
-        { "nome": "Pregos de ferro (10)", "preco": 1.0, "peso": 2.5 },
-        { "nome": "Rações (1 dia)", "preco": 0.5, "peso": 1.0 },
-        { "nome": "Robes", "preco": 1.0, "peso": 1.0 },
-        { "nome": "Roldana e polia", "preco": 2.0, "peso": 2.5 },
-        { "nome": "Roupas comuns", "preco": 0.5, "peso": 1.5 },
-        { "nome": "Roupas de viajante", "preco": 2.0, "peso": 2.0 },
-        { "nome": "Roupas de entretenimento", "preco": 5.0, "peso": 2.0 },
-        { "nome": "Roupas finas", "preco": 15.0, "peso": 3.0 },
-        { "nome": "Sabão", "preco": 0.02, "peso": 0.0 },
-        { "nome": "Saco", "preco": 0.01, "peso": 0.25 },
-        { "nome": "Saco de dormir", "preco": 1.0, "peso": 3.5 },
-        { "nome": "Sinete", "preco": 5.0, "peso": 0.5 },
-        { "nome": "Sino", "preco": 1.0, "peso": 0.0 },
-        { "nome": "Tenda (2 pessoas)", "preco": 2.0, "peso": 10.0 },
-        { "nome": "Tocha", "preco": 0.01, "peso": 0.5 },
-        { "nome": "Vara (3 metros)", "preco": 0.05, "peso": 3.5 },
-        { "nome": "Vela", "preco": 0.01, "peso": 0.0 },
-        { "nome": "Veneno básico", "preco": 100.0, "peso": 0.0 }
+        {
+          "nome": "Ábaco",
+          "preco": 2.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Ácido (vidro)",
+          "preco": 25.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Água benta",
+          "preco": 25.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Algemas",
+          "preco": 2.0,
+          "peso": 2.0
+        },
+        {
+          "nome": "Algibeira",
+          "preco": 5.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Aljava",
+          "preco": 1.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Ampulheta",
+          "preco": 25.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Antídoto",
+          "preco": 50.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Aríete portátil",
+          "preco": 4.0,
+          "peso": 17.5
+        },
+        {
+          "nome": "Armadilha de caça",
+          "preco": 5.0,
+          "peso": 12.5
+        },
+        {
+          "nome": "Arpéu",
+          "preco": 2.0,
+          "peso": 2.0
+        },
+        {
+          "nome": "Balança de mercador",
+          "preco": 5.0,
+          "peso": 1.5
+        },
+        {
+          "nome": "Balde",
+          "preco": 0.05,
+          "peso": 1.0
+        },
+        {
+          "nome": "Barril",
+          "preco": 35.0,
+          "peso": 35.0
+        },
+        {
+          "nome": "Baú",
+          "preco": 5.0,
+          "peso": 12.5
+        },
+        {
+          "nome": "Bolsa de componentes",
+          "preco": 25.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Caixa de Fogo",
+          "preco": 0.5,
+          "peso": 0.5
+        },
+        {
+          "nome": "Caneca",
+          "preco": 0.02,
+          "peso": 0.5
+        },
+        {
+          "nome": "Caneta tinteiro",
+          "preco": 0.01,
+          "peso": 0.0
+        },
+        {
+          "nome": "Cantil",
+          "preco": 0.2,
+          "peso": 2.5
+        },
+        {
+          "nome": "Cesto",
+          "preco": 0.4,
+          "peso": 1.0
+        },
+        {
+          "nome": "Cobertor de inverno",
+          "preco": 0.5,
+          "peso": 1.5
+        },
+        {
+          "nome": "Corda de cânhamo (15m)",
+          "preco": 1.0,
+          "peso": 5.0
+        },
+        {
+          "nome": "Corda de seda (15m)",
+          "preco": 10.0,
+          "peso": 2.5
+        },
+        {
+          "nome": "Corrente (3m)",
+          "preco": 5.0,
+          "peso": 5.0
+        },
+        {
+          "nome": "Equipamento de pescaria",
+          "preco": 1.0,
+          "peso": 2.0
+        },
+        {
+          "nome": "Escada (3m)",
+          "preco": 0.1,
+          "peso": 12.5
+        },
+        {
+          "nome": "Esferas (sacola com 1.000)",
+          "preco": 1.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Espelho de aço",
+          "preco": 5.0,
+          "peso": 0.25
+        },
+        {
+          "nome": "Estrepes (bolsa com 20)",
+          "preco": 1.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Fechadura",
+          "preco": 10.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Fogo alquímico (frasco)",
+          "preco": 50.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Frasco",
+          "preco": 0.02,
+          "peso": 1.0
+        },
+        {
+          "nome": "Garrafa de Vidro",
+          "preco": 1.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Grimório",
+          "preco": 50.0,
+          "peso": 1.5
+        },
+        {
+          "nome": "Jarra",
+          "preco": 0.04,
+          "peso": 2.0
+        },
+        {
+          "nome": "Kit escalada",
+          "preco": 25.0,
+          "peso": 6.0
+        },
+        {
+          "nome": "Kit de primeiros-socorros",
+          "preco": 5.0,
+          "peso": 1.5
+        },
+        {
+          "nome": "Lâmpada",
+          "preco": 0.5,
+          "peso": 0.5
+        },
+        {
+          "nome": "Lanterna coberta",
+          "preco": 5.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Lanterna furta-fogo",
+          "preco": 10.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Lente de aumento",
+          "preco": 100.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Livro",
+          "preco": 25.0,
+          "peso": 2.5
+        },
+        {
+          "nome": "Luneta",
+          "preco": 1000.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Manto",
+          "preco": 1.0,
+          "peso": 2.0
+        },
+        {
+          "nome": "Marreta",
+          "preco": 2.0,
+          "peso": 5.0
+        },
+        {
+          "nome": "Martelo",
+          "preco": 1.0,
+          "peso": 1.5
+        },
+        {
+          "nome": "Mochila",
+          "preco": 2.0,
+          "peso": 2.5
+        },
+        {
+          "nome": "Óléo (frasco)",
+          "preco": 0.1,
+          "peso": 0.5
+        },
+        {
+          "nome": "Pá",
+          "preco": 0.1,
+          "peso": 0.5
+        },
+        {
+          "nome": "Panela de ferro",
+          "preco": 2.0,
+          "peso": 5.0
+        },
+        {
+          "nome": "Papel (uma folha)",
+          "preco": 0.2,
+          "peso": 0.0
+        },
+        {
+          "nome": "Parafina",
+          "preco": 0.5,
+          "peso": 0.0
+        },
+        {
+          "nome": "Pé de cabra",
+          "preco": 2.0,
+          "peso": 2.5
+        },
+        {
+          "nome": "Pedra de amolar",
+          "preco": 0.01,
+          "peso": 0.0
+        },
+        {
+          "nome": "Perfume (frasco)",
+          "preco": 5.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Pergaminho (uma folha)",
+          "preco": 1.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Picareta de minerador",
+          "preco": 2.0,
+          "peso": 5.0
+        },
+        {
+          "nome": "Píton",
+          "preco": 0.05,
+          "peso": 0.0
+        },
+        {
+          "nome": "Porta mapas ou pergamihos",
+          "preco": 1.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Porta virotes",
+          "preco": 1.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Pregos de ferro (10)",
+          "preco": 1.0,
+          "peso": 2.5
+        },
+        {
+          "nome": "Rações (1 dia)",
+          "preco": 0.5,
+          "peso": 1.0
+        },
+        {
+          "nome": "Robes",
+          "preco": 1.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Roldana e polia",
+          "preco": 2.0,
+          "peso": 2.5
+        },
+        {
+          "nome": "Roupas comuns",
+          "preco": 0.5,
+          "peso": 1.5
+        },
+        {
+          "nome": "Roupas de viajante",
+          "preco": 2.0,
+          "peso": 2.0
+        },
+        {
+          "nome": "Roupas de entretenimento",
+          "preco": 5.0,
+          "peso": 2.0
+        },
+        {
+          "nome": "Roupas finas",
+          "preco": 15.0,
+          "peso": 3.0
+        },
+        {
+          "nome": "Sabão",
+          "preco": 0.02,
+          "peso": 0.0
+        },
+        {
+          "nome": "Saco",
+          "preco": 0.01,
+          "peso": 0.25
+        },
+        {
+          "nome": "Saco de dormir",
+          "preco": 1.0,
+          "peso": 3.5
+        },
+        {
+          "nome": "Sinete",
+          "preco": 5.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Sino",
+          "preco": 1.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Tenda (2 pessoas)",
+          "preco": 2.0,
+          "peso": 10.0
+        },
+        {
+          "nome": "Tocha",
+          "preco": 0.01,
+          "peso": 0.5
+        },
+        {
+          "nome": "Vara (3 metros)",
+          "preco": 0.05,
+          "peso": 3.5
+        },
+        {
+          "nome": "Vela",
+          "preco": 0.01,
+          "peso": 0.0
+        },
+        {
+          "nome": "Veneno básico",
+          "preco": 100.0,
+          "peso": 0.0
+        }
       ]
     },
     {
       "categoria": "Focos arcanos",
       "itens": [
-        { "nome": "Bastão", "preco": 10.0, "peso": 1.0 },
-        { "nome": "Cajado", "preco": 5.0, "peso": 2.0 },
-        { "nome": "Cristal", "preco": 10.0, "peso": 0.5 },
-        { "nome": "Orbe", "preco": 20.0, "peso": 1.5 },
-        { "nome": "Varinha", "preco": 10.0, "peso": 0.5 }
+        {
+          "nome": "Bastão",
+          "preco": 10.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Cajado",
+          "preco": 5.0,
+          "peso": 2.0
+        },
+        {
+          "nome": "Cristal",
+          "preco": 10.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Orbe",
+          "preco": 20.0,
+          "peso": 1.5
+        },
+        {
+          "nome": "Varinha",
+          "preco": 10.0,
+          "peso": 0.5
+        }
       ]
     },
     {
       "categoria": "Focos druídicos",
       "itens": [
-        { "nome": "Cajado de madeira", "preco": 5.0, "peso": 2.0 },
-        { "nome": "Ramo de visco", "preco": 1.0, "peso": 0.0 },
-        { "nome": "Totem", "preco": 1.0, "peso": 0.0 },
-        { "nome": "Varinha de teixo", "preco": 10.0, "peso": 0.5 }
+        {
+          "nome": "Cajado de madeira",
+          "preco": 5.0,
+          "peso": 2.0
+        },
+        {
+          "nome": "Ramo de visco",
+          "preco": 1.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Totem",
+          "preco": 1.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Varinha de teixo",
+          "preco": 10.0,
+          "peso": 0.5
+        }
       ]
     },
     {
       "categoria": "Símbolos sagrados",
       "itens": [
-        { "nome": "Amuleto", "preco": 5.0, "peso": 0.5 },
-        { "nome": "Emblema", "preco": 5.0, "peso": 0.0 },
-        { "nome": "Relicário", "preco": 5.0, "peso": 1.0 }
+        {
+          "nome": "Amuleto",
+          "preco": 5.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Emblema",
+          "preco": 5.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Relicário",
+          "preco": 5.0,
+          "peso": 1.0
+        }
       ]
     },
     {
       "categoria": "Munições",
       "itens": [
-        { "nome": "Balas Funda(20)", "preco": 0.04, "peso": 0.75 },
-        { "nome": "Flechas (20)", "preco": 1.0, "peso": 0.5 },
-        { "nome": "Virotes (20)", "preco": 1.0, "peso": 0.75 },
-        { "nome": "Zarabatana (50)", "preco": 1.0, "peso": 0.5 }
+        {
+          "nome": "Balas Funda(20)",
+          "preco": 0.04,
+          "peso": 0.75
+        },
+        {
+          "nome": "Flechas (20)",
+          "preco": 1.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Virotes (20)",
+          "preco": 1.0,
+          "peso": 0.75
+        },
+        {
+          "nome": "Zarabatana (50)",
+          "preco": 1.0,
+          "peso": 0.5
+        }
       ],
       "ferramentas": [
         {
           "categoria": "Artesão",
           "itens": [
-            { "nome": "Ferramentas de carpinteiro", "preco": 8.0, "peso": 3.0 },
-            { "nome": "Ferramentas de cartógrafo", "preco": 15.0, "peso": 3.0 },
-            { "nome": "Ferramentas de costureiro", "preco": 1.0, "peso": 2.5 },
-            { "nome": "Ferramentas de coureiro", "preco": 5.0, "peso": 2.5 },
-            { "nome": "Ferramentas de entalhador", "preco": 1.0, "peso": 2.5 },
-            { "nome": "Ferramentas de ferreiro", "preco": 20.0, "peso": 4.0 },
-            { "nome": "Ferramentas de funileiro", "preco": 50.0, "peso": 5.0 },
-            { "nome": "Ferramentas de joalheiro", "preco": 25.0, "peso": 1.0 },
-            { "nome": "Ferramentas de oleiro", "preco": 10.0, "peso": 1.5 },
-            { "nome": "Ferramentas de pedreiro", "preco": 10.0, "peso": 4.0 },
-            { "nome": "Ferramentas de pintor", "preco": 10.0, "peso": 2.5 },
-            { "nome": "Ferramentas de sapateiro", "preco": 5.0, "peso": 2.5 },
-            { "nome": "Ferramentas de vidraceiro", "preco": 30.0, "peso": 2.5 },
-            { "nome": "Suprimentos de alquimista", "preco": 50.0, "peso": 4.0 },
-            { "nome": "Suprimentos de cervejeiro", "preco": 20.0, "peso": 4.5 },
-            { "nome": "Suprimentos de caligrafia", "preco": 10.0, "peso": 2.5 },
-            { "nome": "Utensílios de cozinheiro", "preco": 1.0, "peso": 4.0 }
-        ]}
-              ]},
+            {
+              "nome": "Ferramentas de carpinteiro",
+              "preco": 8.0,
+              "peso": 3.0
+            },
+            {
+              "nome": "Ferramentas de cartógrafo",
+              "preco": 15.0,
+              "peso": 3.0
+            },
+            {
+              "nome": "Ferramentas de costureiro",
+              "preco": 1.0,
+              "peso": 2.5
+            },
+            {
+              "nome": "Ferramentas de coureiro",
+              "preco": 5.0,
+              "peso": 2.5
+            },
+            {
+              "nome": "Ferramentas de entalhador",
+              "preco": 1.0,
+              "peso": 2.5
+            },
+            {
+              "nome": "Ferramentas de ferreiro",
+              "preco": 20.0,
+              "peso": 4.0
+            },
+            {
+              "nome": "Ferramentas de funileiro",
+              "preco": 50.0,
+              "peso": 5.0
+            },
+            {
+              "nome": "Ferramentas de joalheiro",
+              "preco": 25.0,
+              "peso": 1.0
+            },
+            {
+              "nome": "Ferramentas de oleiro",
+              "preco": 10.0,
+              "peso": 1.5
+            },
+            {
+              "nome": "Ferramentas de pedreiro",
+              "preco": 10.0,
+              "peso": 4.0
+            },
+            {
+              "nome": "Ferramentas de pintor",
+              "preco": 10.0,
+              "peso": 2.5
+            },
+            {
+              "nome": "Ferramentas de sapateiro",
+              "preco": 5.0,
+              "peso": 2.5
+            },
+            {
+              "nome": "Ferramentas de vidraceiro",
+              "preco": 30.0,
+              "peso": 2.5
+            },
+            {
+              "nome": "Suprimentos de alquimista",
+              "preco": 50.0,
+              "peso": 4.0
+            },
+            {
+              "nome": "Suprimentos de cervejeiro",
+              "preco": 20.0,
+              "peso": 4.5
+            },
+            {
+              "nome": "Suprimentos de caligrafia",
+              "preco": 10.0,
+              "peso": 2.5
+            },
+            {
+              "nome": "Utensílios de cozinheiro",
+              "preco": 1.0,
+              "peso": 4.0
+            }
+          ]
+        }
+      ]
+    },
     {
       "categoria": "Instrumentos musicais",
       "itens": [
-        { "nome": "Alaúde", "preco": 35.0, "peso": 1.0 },
-        { "nome": "Flauta", "preco": 2.0, "peso": 0.5 },
-        { "nome": "Flauta de pã", "preco": 12.0, "peso": 1.0 },
-        { "nome": "Gaita de foles", "preco": 30.0, "peso": 3.0 },
-        { "nome": "Lira", "preco": 30.0, "peso": 1.0 },
-        { "nome": "Oboé", "preco": 2.0, "peso": 0.5 },
-        { "nome": "Tambor", "preco": 6.0, "peso": 1.5 },
-        { "nome": "Trombeta", "preco": 3.0, "peso": 1.0 },
-        { "nome": "Violino", "preco": 30.0, "peso": 3.0 },
-        { "nome": "Xilofone", "preco": 25.0, "peso": 5.0 }
+        {
+          "nome": "Alaúde",
+          "preco": 35.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Flauta",
+          "preco": 2.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Flauta de pã",
+          "preco": 12.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Gaita de foles",
+          "preco": 30.0,
+          "peso": 3.0
+        },
+        {
+          "nome": "Lira",
+          "preco": 30.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Oboé",
+          "preco": 2.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Tambor",
+          "preco": 6.0,
+          "peso": 1.5
+        },
+        {
+          "nome": "Trombeta",
+          "preco": 3.0,
+          "peso": 1.0
+        },
+        {
+          "nome": "Violino",
+          "preco": 30.0,
+          "peso": 3.0
+        },
+        {
+          "nome": "Xilofone",
+          "preco": 25.0,
+          "peso": 5.0
+        }
       ]
     },
     {
       "categoria": "Kits",
       "itens": [
-        { "nome": "Kit de disfarce", "preco": 25.0, "peso": 1.5 },
-        { "nome": "Kit de falsificação", "preco": 15.0, "peso": 2.5 },
-        { "nome": "Kit de herbalismo", "preco": 5.0, "peso": 1.5 },
-        { "nome": "Kit de venenos", "preco": 50.0, "peso": 1.0 }
+        {
+          "nome": "Kit de disfarce",
+          "preco": 25.0,
+          "peso": 1.5
+        },
+        {
+          "nome": "Kit de falsificação",
+          "preco": 15.0,
+          "peso": 2.5
+        },
+        {
+          "nome": "Kit de herbalismo",
+          "preco": 5.0,
+          "peso": 1.5
+        },
+        {
+          "nome": "Kit de venenos",
+          "preco": 50.0,
+          "peso": 1.0
+        }
       ]
     },
     {
       "categoria": "Kit de jogo",
       "itens": [
-        { "nome": "Baralho de cartas", "preco": 0.5, "peso": 1.0 },
-        { "nome": "Conjunto de dados", "preco": 0.1, "peso": 0.5 },
-        { "nome": "Jogo dos três dragões", "preco": 5.0, "peso": 0.0 },
-        { "nome": "Xadrez do dragão", "preco": 1.0, "peso": 0.25 }
+        {
+          "nome": "Baralho de cartas",
+          "preco": 0.5,
+          "peso": 1.0
+        },
+        {
+          "nome": "Conjunto de dados",
+          "preco": 0.1,
+          "peso": 0.5
+        },
+        {
+          "nome": "Jogo dos três dragões",
+          "preco": 5.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Xadrez do dragão",
+          "preco": 1.0,
+          "peso": 0.25
+        }
       ]
     },
     {
       "categoria": "Animais",
       "itens": [
-        { "nome": "Burro ou mula", "preco": 8.0, "deslocamento": 12.0, "capacidade_carga": 210.0 },
-        { "nome": "Camelo", "preco": 50.0, "deslocamento": 15.0, "capacidade_carga": 240.0 },
-        { "nome": "Cavalo de guerra", "preco": 400.0, "deslocamento": 18.0, "capacidade_carga": 270.0 },
-        { "nome": "Cavalo de montaria", "preco": 75.0, "deslocamento": 18.0, "capacidade_carga": 220.0 },
-        { "nome": "Cavalo de pesado", "preco": 50.0, "deslocamento": 12.0, "capacidade_carga": 270.0 },
-        { "nome": "Elefante", "preco": 200.0, "deslocamento": 12.0, "capacidade_carga": 660.0 },
-        { "nome": "Mastim", "preco": 25.0, "deslocamento": 12.0, "capacidade_carga": 100.0 },
-        { "nome": "Pônei", "preco": 30.0, "deslocamento": 12.0, "capacidade_carga": 115.0 }
-        ]
+        {
+          "nome": "Burro ou mula",
+          "preco": 8.0,
+          "deslocamento": 12.0,
+          "capacidade_carga": 210.0
+        },
+        {
+          "nome": "Camelo",
+          "preco": 50.0,
+          "deslocamento": 15.0,
+          "capacidade_carga": 240.0
+        },
+        {
+          "nome": "Cavalo de guerra",
+          "preco": 400.0,
+          "deslocamento": 18.0,
+          "capacidade_carga": 270.0
+        },
+        {
+          "nome": "Cavalo de montaria",
+          "preco": 75.0,
+          "deslocamento": 18.0,
+          "capacidade_carga": 220.0
+        },
+        {
+          "nome": "Cavalo de pesado",
+          "preco": 50.0,
+          "deslocamento": 12.0,
+          "capacidade_carga": 270.0
+        },
+        {
+          "nome": "Elefante",
+          "preco": 200.0,
+          "deslocamento": 12.0,
+          "capacidade_carga": 660.0
+        },
+        {
+          "nome": "Mastim",
+          "preco": 25.0,
+          "deslocamento": 12.0,
+          "capacidade_carga": 100.0
+        },
+        {
+          "nome": "Pônei",
+          "preco": 30.0,
+          "deslocamento": 12.0,
+          "capacidade_carga": 115.0
+        }
+      ]
     },
     {
       "categoria": "Arreios e Veículos de tração",
       "itens": [
-        { "nome": "Alforje", "preco": 4.0, "peso": 4.0 },
-        { "nome": "Biga", "preco": 4.0, "peso": 50.0 },
-        { "nome": "Carroça", "preco": 4.0, "peso": 100.0 },
-        { "nome": "Carruagem", "preco": 4.0, "peso": 300.0 },
-        { "nome": "Estábulo", "preco": 4.0, "peso": 0.0 },
-        { "nome": "Freio e rédea", "preco": 4.0, "peso": 0.5 },
-        { "nome": "Ração (1 dia)", "preco": 4.0, "peso": 5.0 },
-        { "nome": "Trenó", "preco": 20.0, "peso": 150.0 },
-    {
-      "categoria": "Armaduras de montaria",
-      "itens": [
+        {
+          "nome": "Alforje",
+          "preco": 4.0,
+          "peso": 4.0
+        },
+        {
+          "nome": "Biga",
+          "preco": 4.0,
+          "peso": 50.0
+        },
+        {
+          "nome": "Carroça",
+          "preco": 4.0,
+          "peso": 100.0
+        },
+        {
+          "nome": "Carruagem",
+          "preco": 4.0,
+          "peso": 300.0
+        },
+        {
+          "nome": "Estábulo",
+          "preco": 4.0,
+          "peso": 0.0
+        },
+        {
+          "nome": "Freio e rédea",
+          "preco": 4.0,
+          "peso": 0.5
+        },
+        {
+          "nome": "Ração (1 dia)",
+          "preco": 4.0,
+          "peso": 5.0
+        },
+        {
+          "nome": "Trenó",
+          "preco": 20.0,
+          "peso": 150.0
+        },
         {
           "categoria": "Armaduras de montaria",
-          "itens": [
-            { "nome": "Bardagem Acolchoada", "preco": 20.0, "ca": 11, "peso": 8.0 },
-            { "nome": "Bardagem de Couro", "preco": 40.0, "ca": 11, "peso": 10.0 },
-            { "nome": "Bardagem de Couro Batido", "preco": 180.0, "ca": 12, "peso": 13.0 },
-            { "nome": "Bardagem de Peles", "preco": 40.0, "ca": 12, "peso": 12.0 },
-            { "nome": "Bardagem Camisão de Malha", "preco": 200.0, "ca": 13, "peso": 20.0 },
-            { "nome": "Bardagem Brunea", "preco": 200.0, "ca": 14, "peso": 45.0 },
-            { "nome": "Bardagem Peitoral", "preco": 1600.0, "ca": 14, "peso": 20.0 },
-            { "nome": "Bardagem Meia-Armadura", "preco": 3000.0, "ca": 15, "peso": 40.0 },
-            { "nome": "Bardagem Cota de Anéis", "preco": 120.0, "ca": 14, "peso": 40.0 },
-            { "nome": "Bardagem Cota de Malha", "preco": 300.0, "ca": 16, "peso": 55.0 },
-            { "nome": "Bardagem Cota de Talas", "preco": 800.0, "ca": 17, "peso": 60.0 },
-            { "nome": "Bardagem de Placas", "preco": 6000.0, "ca": 18, "peso": 65.0 },
-            {
-              "categoria": "Veículos Aquáticos",
               "itens": [
-                { "nome": "Barco de quilha", "preco": 3000.0, "velocidade": 1.5 },
-                { "nome": "Barco a remo", "preco": 50.0, "velocidade": 2.0 },
-                { "nome": "Dracar", "preco": 10000.0, "velocidade": 5.0 },
-                { "nome": "Galera", "preco": 30000.0, "velocidade": 6.5 },
-                { "nome": "Navio de guerra", "preco": 25000.0, "velocidade": 4.0 },
-                { "nome": "Veleiro", "preco": 10000.0, "velocidade": 3.0 }
+                {
+                  "nome": "Bardagem Acolchoada",
+                  "preco": 20.0,
+                  "ca": 11,
+                  "peso": 8.0
+                },
+                {
+                  "nome": "Bardagem de Couro",
+                  "preco": 40.0,
+                  "ca": 11,
+                  "peso": 10.0
+                },
+                {
+                  "nome": "Bardagem de Couro Batido",
+                  "preco": 180.0,
+                  "ca": 12,
+                  "peso": 13.0
+                },
+                {
+                  "nome": "Bardagem de Peles",
+                  "preco": 40.0,
+                  "ca": 12,
+                  "peso": 12.0
+                },
+                {
+                  "nome": "Bardagem Camisão de Malha",
+                  "preco": 200.0,
+                  "ca": 13,
+                  "peso": 20.0
+                },
+                {
+                  "nome": "Bardagem Brunea",
+                  "preco": 200.0,
+                  "ca": 14,
+                  "peso": 45.0
+                },
+                {
+                  "nome": "Bardagem Peitoral",
+                  "preco": 1600.0,
+                  "ca": 14,
+                  "peso": 20.0
+                },
+                {
+                  "nome": "Bardagem Meia-Armadura",
+                  "preco": 3000.0,
+                  "ca": 15,
+                  "peso": 40.0
+                },
+                {
+                  "nome": "Bardagem Cota de Anéis",
+                  "preco": 120.0,
+                  "ca": 14,
+                  "peso": 40.0
+                },
+                {
+                  "nome": "Bardagem Cota de Malha",
+                  "preco": 300.0,
+                  "ca": 16,
+                  "peso": 55.0
+                },
+                {
+                  "nome": "Bardagem Cota de Talas",
+                  "preco": 800.0,
+                  "ca": 17,
+                  "peso": 60.0
+                },
+                {
+                  "nome": "Bardagem de Placas",
+                  "preco": 6000.0,
+                  "ca": 18,
+                  "peso": 65.0
+                },
+                {
+                  "categoria": "Veículos Aquáticos",
+                  "itens": [
+                    {
+                      "nome": "Barco de quilha",
+                      "preco": 3000.0,
+                      "velocidade": 1.5
+                    },
+                    {
+                      "nome": "Barco a remo",
+                      "preco": 50.0,
+                      "velocidade": 2.0
+                    },
+                    {
+                      "nome": "Dracar",
+                      "preco": 10000.0,
+                      "velocidade": 5.0
+                    },
+                    {
+                      "nome": "Galera",
+                      "preco": 30000.0,
+                      "velocidade": 6.5
+                    },
+                    {
+                      "nome": "Navio de guerra",
+                      "preco": 25000.0,
+                      "velocidade": 4.0
+                    },
+                    {
+                      "nome": "Veleiro",
+                      "preco": 10000.0,
+                      "velocidade": 3.0
+                    }
+                  ]
+                }
               ]
             }
           ]
         }
       ]
     }
-      ]
-    }
-  ]
-}

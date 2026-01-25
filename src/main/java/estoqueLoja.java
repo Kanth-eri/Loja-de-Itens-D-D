@@ -1,7 +1,7 @@
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -19,35 +19,53 @@ public void iniciarEstoque() {
         Gson gson = new Gson();
         JsonObject jsonCompleto = gson.fromJson(reader, JsonObject.class);
 
-        if (jsonCompleto.has("armaduras")) {
-            JsonArray categorias = jsonCompleto.getAsJsonArray("armaduras");
+        if (jsonCompleto == null) return;
 
-            for (JsonElement catElement : categorias) {
-                JsonArray itens = catElement.getAsJsonObject().getAsJsonArray("itens");
-
-                for (JsonElement itemElement : itens) {
-                    JsonObject obj = itemElement.getAsJsonObject();
-
-                    Armadura novaArmadura = new Armadura(
-                            obj.get("nome").getAsString(),
-                            "Comum",
-                            10,
-                            "Item do Livro",
-                            "PHB",
-                            obj.get("preco").getAsDouble(),
-                            obj.get("peso").getAsDouble(),
-                            false,
-                            obj.get("ca").getAsInt()
-                    );
-
-                    listaItens.add(novaArmadura);
+        if (jsonCompleto.has("armas")) {
+            for (JsonElement catElement : jsonCompleto.getAsJsonArray("armas")) {
+                JsonObject catObj = catElement.getAsJsonObject();
+                if (catObj.has("itens")) {
+                    for (JsonElement itemElement : catObj.getAsJsonArray("itens")) {
+                        JsonObject obj = itemElement.getAsJsonObject();
+                        if (obj.has("nome")) {
+                            listaItens.add(new Arma(obj.get("nome").getAsString(),
+                                    "Comum",
+                                    0,
+                                    ".",
+                                    obj.has("propriedades") ? obj.get("propriedades").getAsString() : "...",
+                                    obj.get("preco").getAsDouble(),
+                                    obj.get("peso").getAsDouble(),
+                                    false,
+                                    obj.get("dano").getAsString()
+                            ));
+                        }
+                    }
                 }
             }
         }
-        IO.println(listaItens.size());
-
+        if (jsonCompleto.has("armaduras")) {
+            for (JsonElement catElement : jsonCompleto.getAsJsonArray("armaduras")) {
+                JsonObject catObj = catElement.getAsJsonObject();
+                if (catObj.has("itens")) {
+                    for (JsonElement itemElement : catObj.getAsJsonArray("itens")) {
+                        JsonObject obj = itemElement.getAsJsonObject();
+                        if (obj.has("nome")) {
+                            listaItens.add(new Armadura(
+                                    obj.get("nome").getAsString(),
+                                    "Comum", 0, ".", "...",
+                                    obj.get("preco").getAsDouble(),
+                                    obj.get("peso").getAsDouble(),
+                                    false,
+                                    obj.get("ca").getAsInt()
+                            ));
+                        }
+                    }
+                }
+            }
+        }
     } catch (IOException e) {
         IO.println("Erro ao ler o arquivo JSON: " + e.getMessage());
+        e.printStackTrace();
     }
 }
 public void exibirEstoque() {
