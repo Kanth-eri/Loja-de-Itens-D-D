@@ -1,0 +1,6 @@
+[33m6efc53d[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: pull origin main --rebase (start): checkout 6efc53dc8ff6805afd34cc5057817f2f4ebe4b8b
+[33mee2848c[m[33m ([m[1;32mmain[m[33m)[m HEAD@{1}: Branch: renamed refs/heads/master to refs/heads/main
+[33mee2848c[m[33m ([m[1;32mmain[m[33m)[m HEAD@{3}: reset: moving to HEAD~1
+[33m6a57e0e[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{4}: commit: Alterei o CadastroItem
+[33mee2848c[m[33m ([m[1;32mmain[m[33m)[m HEAD@{5}: commit: Comecei a escrever CadastroItem
+[33m955bf5d[m HEAD@{6}: commit (initial): Adicionado novos itens para o repositório JSON
